@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>F S H L.</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-warning" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <h1 class="navbar-brand" href="#">F S H L.</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll"
+                    style="--bs-scroll-height: 100px; font-family: Adam;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">SKILLS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            MORE
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" style="color:white;" href="#service">Services</a></li>
+                            <li><a class="dropdown-item" style="color:white;" href="#gallery">Gallery</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" style="color:white;" href="#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/prog.png" class="d-block w-100" alt="image" style="height: 578px; ">
+                <div class="carousel-caption " style="flex-direction: row;">
+                    <h1 style="float: inline-start; font-size: 4.5rem; font-weight: bold">P R O G R A M M I N G</h1>
+                    <h3 style="margin-bottom: 15vh">FRONT END & UI/UX DESIGNER</h3>
+                    <br>
+                    <p> As an tech guy I really like digital design, especialy UI/UX design creating simple and modern
+                        web design. so let me realize your website
+                        interface ideas, explore every ideas without limitation.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/pht.png" class=" d-block w-100" alt="image" style="height: 578px; ">
+                <div class="carousel-caption " style="flex-direction: row;">
+                    <h1 style="float: inline-start; font-size: 4.5rem; font-weight: bold">A U T O M O T I V E</h1>
+                    <h1 style="margin-bottom: 15vh">P H O T O G R A P H Y</h1>
+                    <br>
+                    <h5>@faitoshoot</h5>
+                    <p>As an automotive enthusiast and having photography & videography hobby so I create some gallery
+                        on Instagram all about automotive culture
+                        capture every moment with your favourite ride, keep the memory in your gallery.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/vid.png" class="d-block w-100" alt="image" style="height: 578px; ">
+                <div class="carousel-caption " style="flex-direction: row;">
+                    <h1 style="float: inline-start; font-size: 4.5rem; font-weight: bold">C R E A T I V E</h1>
+                    <h3 style="margin-bottom: 15vh">V I D E O G R A P H Y</h3>
+                    <br>
+                    <h5>@fshleka_n & @faitoshoot</h5>
+                    <p>Let me take you into a deeper experience art of visual, make a moment a lasting conveyable
+                        memory.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Caroulsel End -->
+
+
+    <!-- About Start -->
+    <div id="about" class="container-xxl py-6 bg-dark" id="about" style="margin-top: 22vh;" data-aos="fade-up"
+        data-aos-duration="1000ms">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="years flex-shrink-0 text-center me-4">
+                            <h1 class="display-1 mb-0">HI!</h1>
+                        </div>
+                        <h3 class="lh-base mb-0">My name is <br> Faishal Eka Nurrohman</h3>
+                    </div>
+                    <p class="mb-4">I'm a fresh graduate junior programmer from Vocational Highschool 4 Bandung, I've
+                        interest on technology things like basic computer science, programming, and digital
+                        design. I've some skill programming language like Java Programming, Front End
+                        Development HTML | CSS | Bootstrap, and I also like to designing UI/UX of application
+                        or website. I also have hobbies around multimedia such as photography, video
+                        graphics and includes editing and touch up processes
+                    </p>
+                    <p class="mb-3"><i class="fa fa-smile text-warning me-3"></i>I'm a Very Friendly Person</p>
+                    <p class="mb-3"><i class="fa fa-eye text-warning me-3"></i>Pays great Attention to Details</p>
+                    <p class="mb-3"><i class="fa fa-star text-warning me-3" style="margin-bottom: 3vh"></i>Quality over
+                        Quantity</p>
+                    <a class="custom-btn btn-2 py-3 px-5 mt-3" style="color: black;" href="#contact">Contact Me</a>
+                </div>
+                <div class="col-lg-6 " data-wow-delay="0.5s">
+
+                    <img class="rounded mx-auto d-block" style="margin-bottom:5vh" src="img/hero.png" alt="">
+
+                    <p
+                        style="color: #ffffff; margin: 24px auto 0; text-align: left; max-width: 500px; font-size: 19px;">
+                        I'm a
+                        <a href="https://affilimate.com" target="_blank">Junior Front End Dev</a> ,
+                        <a href="https://bloggingfordevs.com" target="_blank">UI/UX Design</a>, and
+                        <a href="/blog/">Videographer</a> with passion to make an outstanding standard for best user
+                        experience based in Indonesia. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Expertise Start -->
+    <div id="skill" class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 " data-aos="fade-right">
+                    <h1 class="display-5 mb-5">Skills & Experience</h1>
+                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum
+                        amet diam ipsum clita dolor duo clita sit.</p>
+                    <h3 class="mb-4">My Skills</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">HTML</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">CSS</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">PHP</h6>
+                                    <h6 class="font-weight-bold">70%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="70"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Javascript</h6>
+                                    <h6 class="font-weight-bold">65%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="65"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Videography</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Photography</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <ul class="nav nav-pills rounded border border-2 border-warning mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill"
+                                href="#tab-1">Experience</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill"
+                                href="#tab-2">Education</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>UI/UX Designer</h5>
+                                    <hr class="text-warning my-2">
+                                    <p class="text-warning mb-1">2021</p>
+                                    <h6 class="mb-0">Archipelflugel School Project</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Front End Dev & UI/UX</h5>
+                                    <hr class="text-warning my-2">
+                                    <p class="text-warning mb-1">April 2021 - September 2021</p>
+                                    <h6 class="mb-0">Inovindo Academy Ltd (Internship)</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>UI/UX Designer</h5>
+                                    <hr class="text-warning my-2">
+                                    <p class="text-warning mb-1">2021 - 2022</p>
+                                    <h6 class="mb-0">UNBOX School Project</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Fullstack Developer - Java</h5>
+                                    <hr class="text-warning my-2">
+                                    <p class="text-warning mb-1">2022</p>
+                                    <h6 class="mb-0">Final Examp School Project</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Elementary School</h5>
+                                    <hr class="text-warning my-2">
+                                    <p class="text-warning mb-1">2010 - 2016</p>
+                                    <h6 class="mb-0">Griya Bandung Indah Elementary School</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Junior Highschool</h5>
+                                    <hr class="text-warning my-2">
+                                    <p class="text-warning mb-1">2016 - 2019</p>
+                                    <h6 class="mb-0">Junior Highschool 2 Bojongsoang</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Vocational Highschool</h5>
+                                    <hr class="text-warning my-2">
+                                    <p class="text-warning mb-1">2019 - 2022</p>
+                                    <h6 class="mb-0">Vocational Highschool 4 Bandung</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+
+    <!-- Service Start -->
+    <div id="service" class="container-fluid bg-dark my-5 py-6" id="service">
+        <div class="container" data-aos="fade-up">
+            <div class="row g-5 mb-5 " data-aos="fade-up">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Abilities</h1>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-grey rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">UI/UX Design</h4>
+                            <span>Designing an initial overview of the product interface design that will be built by
+                                deciding the overall theme, the line curves, choosing combinations of color to make an
+                                outstanding User Interface and Experience.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-grey rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Web Design</h4>
+                            <span>Designing web design whole overview of the web interface design that will be built step 
+                                by step start with deciding the overall website theme, choosing combinations of color and picking best asset's to make an
+                                outstanding User Interface and also the best experience for the users.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 " data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-grey rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-camera fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Photography</h4>
+                            <span>Capture every moment anywhere for making the best way to see all of your memories through the gallery.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-grey rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-video fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Videography</h4>
+                            <span>Pouring the ideas with the best way giving the perspective to telling anyone about your perspective through visual.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Projects Start -->
+    <div id="gallery" class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center " data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Projects</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">All Projects</li>
+                        <li class="mx-3" data-filter=".first">UI/UX Design</li>
+                        <li class="mx-3" data-filter=".second">Cinematography</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container " data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project1.png" alt="">
+                        <div class="portfolio-btn">
+                            <div>
+                                <h2>Test</h2>
+                            </div>
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href="img/project1.png"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href="http://motivator.inovindoacademy.com"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project4.gif" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href="img/project4.gif"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href="https://www.instagram.com/reel/CYTDfc_Bq7c/?utm_source=ig_web_copy_link"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project2.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href="img/project2.png"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href="http://lms.inovindoacademy.com"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project5.gif" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href="img/project5.gif"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href="https://www.instagram.com/tv/CXyj7v8pCb2/?utm_source=ig_web_copy_link"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project3.gif" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href="img/project3.gif"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project6.gif" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href="img/project6.gif"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href="https://www.youtube.com/watch?v=_euHzRzxHQE"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project7.gif" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href="img/project7.gif"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href="img/project-3.jpg"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-dark border-2 mx-1" href=""><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- Contact Start -->
+    <div id="contact" class="container-fluid bg-grey footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h1 class="text-white mb-4">
+                        F S H L.
+                    </h1>
+                    <img class="rounded d-block" src="img/footer.png" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Get In Touch</h4>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-warning me-1" href="http://Instagram.com/fshleka_n"><i class="fab fa-instagram"></i></a> 
+                        <a class="btn btn-square btn-outline-warning me-1" href="https://t.me/Fshleka"><i class="fab fa-telegram"></i></a>
+                        <a class="btn btn-square btn-outline-warning me-1" href="https://www.linkedin.com/in/faishal-eka-nurrohman-60a54b23a/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-warning me-0" href="https://www.facebook.com/profile.php?id=100008794691597"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" >
+                    <h4 class="text-light mb-4">Contact & Address</h4>
+                    <div class="d-flex flex-row">
+                        <a class="btn btn-square btn-outline-warning me-2 mb-1" href="https://goo.gl/maps/WdfqdzcRAtaN2qKK6"><i class="fa fa-map-marker"></i></a><a href="https://goo.gl/maps/WdfqdzcRAtaN2qKK6" class="mt-2" style="color: white;">Griya Bandung Indah Resident</a>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <a class="btn btn-square btn-outline-warning me-2 mb-1" href="https://bit.ly/3vEIsyZ"><i class="fab fa-whatsapp"></i></a><a href="https://bit.ly/3vEIsyZ" class="mt-2" style="color: white;">+62 8319 5210 808</a>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <a class="btn btn-square btn-outline-warning me-2 mb-1" href="https://bit.ly/3BCEJ96"><i class="fa fa-envelope"></i></a><a href="https://bit.ly/3BCEJ96" class="mt-2" style="color: white;">faishaleka9@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">F S H L.</a> All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Design By <a href="http://Instagram.com/fshleka_n">F S H L.</a>
+                        <br />Powered By:
+                        <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-warning btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
