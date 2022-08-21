@@ -333,7 +333,7 @@ p {
 }
 
 .portfolio-item:hover .portfolio-btn {
-    opacity: 1;
+    opacity: 70%;
     padding-bottom: 30px !important;
 }
 
